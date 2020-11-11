@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="1.0">
+    <adminhtml_sales_order_view>
+        <reference name="order_info">
+            <block type="vs7_customfields/adminhtml_sales_order_view_info" name="order_info.vs7_customfields" template="vs7_customfields/sales/order/view/info/customfields.phtml" />
+        </reference>
+    </adminhtml_sales_order_view>
+</layout>

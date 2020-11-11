@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    var vs7 = vs7 || {};
+    vs7.gaddress = {
+        address: "<?php echo Mage::getStoreConfig('gaddress/jquery_selectors/address'); ?>",
+        country: "<?php echo Mage::getStoreConfig('gaddress/jquery_selectors/country'); ?>",
+        city: "<?php echo Mage::getStoreConfig('gaddress/jquery_selectors/city'); ?>",
+        postcode: "<?php echo Mage::getStoreConfig('gaddress/jquery_selectors/postcode'); ?>"
+    };
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo Mage::getStoreConfig('gaddress/general/token'); ?>&libraries=places" async defer></script>
